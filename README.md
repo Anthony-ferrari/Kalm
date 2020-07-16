@@ -22,7 +22,6 @@ Goals of Kalm:
 
 Stay Kalm with us! 
 
-![](/Users/anthonymalpartidaa/Desktop/Kalm screenshots/kalmpic1.png)
-![](/Users/anthonymalpartidaa/Desktop/Kalm screenshots/kalmpic4.png)
-![](/Users/anthonymalpartidaa/Desktop/Kalm screenshots/kalmpic2.png)
-![](/Users/anthonymalpartidaa/Desktop/Kalm screenshots/kalmpic3.png)
+![](Kalm/images/kalmpic1.png)
+![](Kalm/images/kalmpic2.png)
+![](Kalm/images/kalmpic3.png)
