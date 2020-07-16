@@ -22,7 +22,7 @@ Goals of Kalm:
 
 Stay Kalm with us! 
 
-![](/Users/anthonymalpartidaa/Desktop/Kalm screenshots/Screen Shot 2020-06-24 at 10.10.36 AM.png)
-![](/Users/anthonymalpartidaa/Desktop/Kalm screenshots/Screen Shot 2020-06-23 at 6.58.29 PM.png)
-![](/Users/anthonymalpartidaa/Desktop/Kalm screenshots/Screen Shot 2020-06-23 at 6.50.41 PM.png)
-![](/Users/anthonymalpartidaa/Desktop/Kalm screenshots/Screen Shot 2020-06-23 at 6.50.30 PM.png)
+![](/Users/anthonymalpartidaa/Desktop/Kalm screenshots/kalmpic1.png)
+![](/Users/anthonymalpartidaa/Desktop/Kalm screenshots/kalmpic4.png)
+![](/Users/anthonymalpartidaa/Desktop/Kalm screenshots/kalmpic2.png)
+![](/Users/anthonymalpartidaa/Desktop/Kalm screenshots/kalmpic3.png)
