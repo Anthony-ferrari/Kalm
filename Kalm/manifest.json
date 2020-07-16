@@ -5,7 +5,8 @@
     "version": "1.0.0",
     "content_scripts": [
         {
-            "js": ["index.js"]
+            "js": ["index.js"],
+            "config": ["config.js"]
         }
     ],
     "browser_action": {

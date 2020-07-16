@@ -11,7 +11,8 @@ const searchList = ['1minutemeditation','3minutemeditation','5minutemeditation',
 
 const youtubeLink = "https://www.youtube.com/watch?v="
 const embedYoutubeVideo = "https://www.youtube.com/embed/"
-const apiKey = "AIzaSyB5fk7jvctsriFt9lJsN1r6G3pH4TcV2e4";
+const apiKey = config["apiKey"]; 
+// not showing apikey
 const youtubeApiUrl =
   "https://www.googleapis.com/youtube/v3/search?part=id%2Csnippet&maxResults=25&q=";
 const keyString = "&key="
@@ -60,27 +61,26 @@ const searchMeditation = async ()=>{
         const random5 = getRandomInt(1,10);
 
         firstVideoThumbnail.href = youtubeLink + itemList[random1].id.videoId
-        //firstVideoImage.src = itemList[random1].snippet.thumbnails.default.url
         firstVideoImage.src = embedYoutubeVideo + itemList[random1].id.videoId
         firstVideoName.textContent = itemList[random1].snippet.title
         firstVideoDescription.textContent = itemList[random1].snippet.description
+
         secondVideoThumbnail.href = youtubeLink + itemList[random2].id.videoId
-        //secondVideoImage.src = itemList[random2].snippet.thumbnails.default.url
         secondVideoImage.src = embedYoutubeVideo + itemList[random2].id.videoId
         secondVideoName.textContent = itemList[random2].snippet.title
         secondVideoDescription.textContent = itemList[random2].snippet.description
+
         thirdVideoThumbnail.href = youtubeLink + itemList[random3].id.videoId
-        //thirdVideoImage.src = itemList[random3].snippet.thumbnails.default.url
         thirdVideoImage.src = embedYoutubeVideo + itemList[random3].id.videoId
         thirdVideoName.textContent = itemList[random3].snippet.title
         thirdVideoDescription.textContent = itemList[random3].snippet.description
+
         fourthVideoThumbnail.href = youtubeLink + itemList[random4].id.videoId
-        //fourthVideoImage.src = itemList[random4].snippet.thumbnails.default.url
         fourthVideoImage.src = embedYoutubeVideo + itemList[random4].id.videoId
         fourthVideoName.textContent = itemList[random4].snippet.title
         fourthVideoDescription.textContent = itemList[random4].snippet.description
+
         fifthVideoThumbnail.href = youtubeLink + itemList[random5].id.videoId
-        //fifthVideoImage.src = itemList[random5].snippet.thumbnails.default.url
         fifthVideoImage.src = embedYoutubeVideo + itemList[random5].id.videoId
         fifthVideoName.textContent = itemList[random5].snippet.title
         fifthVideoDescription.textContent = itemList[random5].snippet.description
