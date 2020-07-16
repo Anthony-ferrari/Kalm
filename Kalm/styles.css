@@ -1,0 +1,19 @@
+.container{
+    text-align: center;
+    padding-top: 4%;
+}
+.results {
+    display: none;
+}
+
+.iframe-container iframe {
+    width: 420px;
+    height: 315px;
+}
+.anchor{
+    padding: 3% 0%;
+    text-align: center;
+}
+.paragraphs{
+    padding-bottom: 2.5%;
+}

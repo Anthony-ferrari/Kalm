@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "Kalm",
+    "description": "Meditate to Alleviate",
+    "version": "1.0.0",
+    "content_scripts": [
+        {
+            "js": ["index.js"]
+        }
+    ],
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "content_security_policy": "script-src 'self' 'unsafe-eval' https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js; object-src 'self'",
+    "icons":{
+        "16": "Kalm_16.png",
+        "64": "Kalm_64.png",
+        "128": "Kalm_128.png"
+    }
+}
